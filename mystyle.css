@@ -10,7 +10,9 @@ body{
     position: relative;
     width: 22%;
     margin: 0 auto;
-    margin-top: 5%;
+    /* margin-top: 7%;
+    margin-bottom: 7%; */
+    margin-top: 11%;
     padding: 2%;
     background-color:hsl(0, 0%, 12%);
     padding-top: 2%;
@@ -72,13 +74,23 @@ body{
     text-decoration: none;
     color:inherit;
 }
-.media-btn:hover a{
-    background-color:hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 0%);
-}
-.media-btn a:hover{
+.media-btn:hover {
     background-color:hsl(75, 94%, 57%);
     color: hsl(0, 0%, 0%);
 }
 
-
+@media only screen and (max-width:480px) {
+    .main-container{
+        position: relative;
+        width: 80%;
+        max-height: 60%;
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 2%;
+        background-color:hsl(0, 0%, 12%);
+        padding-top: 2%;
+        padding-bottom: 3%;
+        border-radius: 3%;       
+    }
+}
